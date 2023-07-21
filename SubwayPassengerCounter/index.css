@@ -1,0 +1,66 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#F8F4EB;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    background-image: url("subway.avif");
+    background-size: cover;
+    border: 1px solid #D4D4D4;
+    border-radius: 8px;
+    box-shadow: 10px 10px #E9E9E9; 
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+    margin-bottom: 20px;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+#increment-btn:hover,
+#save-btn:hover{
+    opacity: .7;
+    border-radius: 10%;
+    cursor: pointer;
+}
+
+p {
+    margin: 30px 0;
+    color: #F8F4EB;
+    font-weight: 600;
+    
+}
