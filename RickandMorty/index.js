@@ -40,6 +40,3 @@ function handelError(error){
 
 getCharactersList()
 
-
-// const image = document.createElement("img");
-//         image.setAttribute("src", element.image);
